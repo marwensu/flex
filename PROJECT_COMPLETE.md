@@ -2,6 +2,8 @@
 
 ## What Was Built
 
+## This project is build using Claude Sonnet and chatgpt 
+
 You now have a **complete, working full-stack Reviews Dashboard** for Flex Living property management.
 
 ---
