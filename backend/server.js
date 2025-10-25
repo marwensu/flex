@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   credentials: true
 }));
 app.use(bodyParser.json());
@@ -84,13 +84,19 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log('\n🚀 ====================================');
-  console.log(` Server running on http://localhost:${PORT}`);
-  console.log(` Reviews API: http://localhost:${PORT}/api/reviews/hostaway`);
-  console.log(` Statistics: http://localhost:${PORT}/api/reviews/stats`);
-  console.log(` Health Check: http://localhost:${PORT}/health`);
-  console.log(` Account ID: ${process.env.HOSTAWAY_ACCOUNT_ID}`);
-  console.log(` API Key: ${process.env.HOSTAWAY_API_KEY ? '✓ Configured' : '✗ Not configured'}`);
-  console.log('====================================\n');
-});
+// Only start server if not in serverless environment (Vercel)
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log('\n🚀 ====================================');
+    console.log(` Server running on http://localhost:${PORT}`);
+    console.log(` Reviews API: http://localhost:${PORT}/api/reviews/hostaway`);
+    console.log(` Statistics: http://localhost:${PORT}/api/reviews/stats`);
+    console.log(` Health Check: http://localhost:${PORT}/health`);
+    console.log(` Account ID: ${process.env.HOSTAWAY_ACCOUNT_ID}`);
+    console.log(` API Key: ${process.env.HOSTAWAY_API_KEY ? '✓ Configured' : '✗ Not configured'}`);
+    console.log('====================================\n');
+  });
+}
+
+// Export for Vercel serverless
+module.exports = app;

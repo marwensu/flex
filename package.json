@@ -1,0 +1,27 @@
+{
+  "name": "flexliving-reviews-monorepo",
+  "version": "1.0.0",
+  "description": "Flex Living Reviews Dashboard - Full Stack Application",
+  "private": true,
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "vercel-build": "npm run install:all && npm run build:frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/flexliving-reviews.git"
+  },
+  "keywords": [
+    "reviews",
+    "property-management",
+    "hostaway",
+    "dashboard"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}
