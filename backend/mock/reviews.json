@@ -1,0 +1,168 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 10},
+        {"category": "respect_house_rules", "rating": 10}
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9.5,
+      "publicReview": "Amazing apartment in the heart of Shoreditch! Clean, modern, and perfectly located. Host was very responsive.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 9},
+        {"category": "location", "rating": 10},
+        {"category": "value", "rating": 9}
+      ],
+      "submittedAt": "2020-08-22 14:30:25",
+      "guestName": "Emily Roberts",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8.7,
+      "publicReview": "Great stay overall. The apartment was spacious and well-equipped. Minor issue with WiFi but was resolved quickly.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 9},
+        {"category": "communication", "rating": 10},
+        {"category": "location", "rating": 8},
+        {"category": "value", "rating": 8},
+        {"category": "amenities", "rating": 7}
+      ],
+      "submittedAt": "2020-09-05 10:15:42",
+      "guestName": "Marcus Chen",
+      "listingName": "1B E2 C - Liverpool Street Loft"
+    },
+    {
+      "id": 7456,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Absolutely perfect! Everything was exactly as described. Would highly recommend to anyone visiting London.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 10},
+        {"category": "location", "rating": 10},
+        {"category": "value", "rating": 10},
+        {"category": "amenities", "rating": 10}
+      ],
+      "submittedAt": "2020-09-12 16:45:18",
+      "guestName": "Sarah Johnson",
+      "listingName": "Studio W1 - Oxford Circus View"
+    },
+    {
+      "id": 7457,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Marcus was a great guest - respectful and tidy. Welcome back anytime!",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 9},
+        {"category": "communication", "rating": 10},
+        {"category": "respect_house_rules", "rating": 10}
+      ],
+      "submittedAt": "2020-09-06 09:20:33",
+      "guestName": "Marcus Chen",
+      "listingName": "1B E2 C - Liverpool Street Loft"
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7.8,
+      "publicReview": "Good location but the apartment could use some maintenance. Shower pressure was low and furniture showing wear.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 8},
+        {"category": "communication", "rating": 9},
+        {"category": "location", "rating": 9},
+        {"category": "value", "rating": 7},
+        {"category": "amenities", "rating": 6}
+      ],
+      "submittedAt": "2020-09-20 11:30:15",
+      "guestName": "David Miller",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7459,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9.2,
+      "publicReview": "Lovely compact studio perfect for a solo traveler. Great amenities and super clean!",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 9},
+        {"category": "location", "rating": 9},
+        {"category": "value", "rating": 9},
+        {"category": "amenities", "rating": 9}
+      ],
+      "submittedAt": "2020-10-01 13:25:47",
+      "guestName": "Anna Kowalski",
+      "listingName": "Studio W1 - Oxford Circus View"
+    },
+    {
+      "id": 7460,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Sarah was an excellent guest! Left the place spotless. Highly recommended.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 10},
+        {"category": "respect_house_rules", "rating": 10}
+      ],
+      "submittedAt": "2020-09-13 08:15:22",
+      "guestName": "Sarah Johnson",
+      "listingName": "Studio W1 - Oxford Circus View"
+    },
+    {
+      "id": 7461,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9.8,
+      "publicReview": "Fantastic apartment with stunning views! Host went above and beyond to make our stay comfortable.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 10},
+        {"category": "communication", "rating": 10},
+        {"category": "location", "rating": 10},
+        {"category": "value", "rating": 9},
+        {"category": "amenities", "rating": 10}
+      ],
+      "submittedAt": "2020-10-15 19:40:12",
+      "guestName": "Tom Bradley",
+      "listingName": "1B E2 C - Liverpool Street Loft"
+    },
+    {
+      "id": 7462,
+      "type": "guest-to-host",
+      "status": "pending",
+      "rating": 8.5,
+      "publicReview": "Nice place, good location. Check-in process was smooth. Only minor complaint is noise from the street at night.",
+      "reviewCategory": [
+        {"category": "cleanliness", "rating": 9},
+        {"category": "communication", "rating": 9},
+        {"category": "location", "rating": 9},
+        {"category": "value", "rating": 8},
+        {"category": "amenities", "rating": 8}
+      ],
+      "submittedAt": "2020-10-20 15:55:30",
+      "guestName": "Lisa Anderson",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Sarah Johnson",
+      "listingName": "Downtown Loft - 2BR",
+      "listingId": 101,
+      "channelName": "Airbnb",
+      "publicReview": "Amazing stay! The apartment was spotless and the location was perfect. Host was very responsive and helpful. Would definitely recommend!",
+      "privateReview": "Great guests, would host again.",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 4 }
+      ],
+      "submittedAt": "2025-10-20T14:30:00Z",
+      "checkInDate": "2025-10-10",
+      "checkOutDate": "2025-10-15"
+    },
+    {
+      "id": 2,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Michael Chen",
+      "listingName": "Beachfront Studio",
+      "listingId": 102,
+      "channelName": "Booking.com",
+      "publicReview": "Nice place with great ocean views. The bed was comfortable but the kitchen could use better equipment. Overall good value for money.",
+      "privateReview": null,
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 4 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 4 },
+        { "name": "Accuracy", "rating": 4 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 4 }
+      ],
+      "submittedAt": "2025-10-18T09:15:00Z",
+      "checkInDate": "2025-10-05",
+      "checkOutDate": "2025-10-12"
+    },
+    {
+      "id": 3,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Emma Rodriguez",
+      "listingName": "Downtown Loft - 2BR",
+      "listingId": 101,
+      "channelName": "Airbnb",
+      "publicReview": "Perfect for our family vacation! Spacious, clean, and close to everything. The kids loved it. Thank you!",
+      "privateReview": "Wonderful family, left the place very tidy.",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 5 }
+      ],
+      "submittedAt": "2025-10-15T16:45:00Z",
+      "checkInDate": "2025-09-28",
+      "checkOutDate": "2025-10-05"
+    },
+    {
+      "id": 4,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "David Park",
+      "listingName": "City Center Penthouse",
+      "listingId": 103,
+      "channelName": "Direct",
+      "publicReview": "The penthouse exceeded our expectations. Stunning views, modern amenities, and excellent service. Will book again!",
+      "privateReview": "Professional guests.",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 4 }
+      ],
+      "submittedAt": "2025-10-22T11:20:00Z",
+      "checkInDate": "2025-10-15",
+      "checkOutDate": "2025-10-20"
+    },
+    {
+      "id": 5,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Lisa Anderson",
+      "listingName": "Beachfront Studio",
+      "listingId": 102,
+      "channelName": "Booking.com",
+      "publicReview": "Decent place but had some issues with noise from neighboring units. Location is great though.",
+      "privateReview": null,
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 4 },
+        { "name": "Communication", "rating": 4 },
+        { "name": "Check-in", "rating": 4 },
+        { "name": "Accuracy", "rating": 3 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 3 }
+      ],
+      "submittedAt": "2025-10-19T13:00:00Z",
+      "checkInDate": "2025-10-08",
+      "checkOutDate": "2025-10-14"
+    },
+    {
+      "id": 6,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "James Wilson",
+      "listingName": "Garden View Apartment",
+      "listingId": 104,
+      "channelName": "Airbnb",
+      "publicReview": "Lovely apartment with a beautiful garden. Very peaceful and relaxing. Host provided great local recommendations.",
+      "privateReview": "Respectful guests, no issues.",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 4 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 4 },
+        { "name": "Value", "rating": 5 }
+      ],
+      "submittedAt": "2025-10-21T10:30:00Z",
+      "checkInDate": "2025-10-12",
+      "checkOutDate": "2025-10-18"
+    },
+    {
+      "id": 7,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Maria Garcia",
+      "listingName": "Downtown Loft - 2BR",
+      "listingId": 101,
+      "channelName": "Vrbo",
+      "publicReview": "Great location for exploring the city. The loft had everything we needed. A bit noisy at night but that's expected in downtown.",
+      "privateReview": null,
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 4 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 4 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 4 }
+      ],
+      "submittedAt": "2025-10-17T15:20:00Z",
+      "checkInDate": "2025-10-01",
+      "checkOutDate": "2025-10-08"
+    },
+    {
+      "id": 8,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Robert Taylor",
+      "listingName": "City Center Penthouse",
+      "listingId": 103,
+      "channelName": "Direct",
+      "publicReview": "Absolutely incredible! The best rental I've ever stayed in. Worth every penny.",
+      "privateReview": "Excellent communication, zero issues.",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 5 }
+      ],
+      "submittedAt": "2025-10-24T08:45:00Z",
+      "checkInDate": "2025-10-18",
+      "checkOutDate": "2025-10-23"
+    },
+    {
+      "id": 9,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Jennifer Lee",
+      "listingName": "Garden View Apartment",
+      "listingId": 104,
+      "channelName": "Airbnb",
+      "publicReview": "Good stay overall. The apartment was clean and comfortable. Check-in process was smooth.",
+      "privateReview": null,
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 4 },
+        { "name": "Communication", "rating": 4 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 4 },
+        { "name": "Location", "rating": 4 },
+        { "name": "Value", "rating": 4 }
+      ],
+      "submittedAt": "2025-10-23T12:10:00Z",
+      "checkInDate": "2025-10-14",
+      "checkOutDate": "2025-10-20"
+    },
+    {
+      "id": 10,
+      "type": "guest",
+      "status": "submitted",
+      "guestName": "Thomas Brown",
+      "listingName": "Beachfront Studio",
+      "listingId": 102,
+      "channelName": "Booking.com",
+      "publicReview": "Beautiful beachfront location. Waking up to ocean views was amazing. Studio is cozy and has everything you need.",
+      "privateReview": "Great guest!",
+      "reviewCategory": [
+        { "name": "Cleanliness", "rating": 5 },
+        { "name": "Communication", "rating": 5 },
+        { "name": "Check-in", "rating": 5 },
+        { "name": "Accuracy", "rating": 5 },
+        { "name": "Location", "rating": 5 },
+        { "name": "Value", "rating": 5 }
+      ],
+      "submittedAt": "2025-10-16T17:30:00Z",
+      "checkInDate": "2025-10-02",
+      "checkOutDate": "2025-10-09"
+    }
+  ]
+}
