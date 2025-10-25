@@ -100,3 +100,4 @@ if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
 
 // Export for Vercel serverless
 module.exports = app;
+module.exports.handler = (req, res) => app(req, res);
