@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Always use the backend deployment URL for production
-const API_BASE_URL = 'https://flex-ba-mu.vercel.app/api';
+const API_BASE_URL = 'https://flex-amber-eight.vercel.app/api';
 
 // Create axios instance with default config
 const api = axios.create({
@@ -113,7 +113,7 @@ export const reviewsAPI = {
 // Health check
 export const healthCheck = async () => {
   try {
-    const response = await api.get('/health', { baseURL: 'https://flex-ba-mu.vercel.app' });
+    const response = await api.get('/health', { baseURL: 'https://flex-amber-eight.vercel.app' });
     return response.data;
   } catch (error) {
     throw error;

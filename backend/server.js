@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     'https://flex-hpna.vercel.app',
-    'https://flex-ba-mu.vercel.app',
+    'https://flex-amber-eight.vercel.app',
     process.env.FRONTEND_URL,
     process.env.VERCEL_URL,
     'http://localhost:3000'

@@ -1,0 +1,57 @@
+==============================
+Flex Living Reviews Project Summary
+==============================
+
+1. Source Code
+--------------
+- Frontend: `frontend/` (React, Vite, Tailwind)
+- Backend: `backend/` (Node.js, Express)
+  - Controllers, routes, services, utils, mock data
+
+2. Running Version / Local Setup
+-------------------------------
+- Backend:
+  1. Open terminal, navigate to `backend/`
+  2. Run: `npm install`
+  3. Start server: `npm start`
+  4. API runs at: http://localhost:5000
+- Frontend:
+  1. Open terminal, navigate to `frontend/`
+  2. Run: `npm install`
+  3. Start dev server: `npm run dev`
+  4. App runs at: http://localhost:3000
+
+3. Brief Documentation
+----------------------
+Tech Stack:
+- Frontend: React, Vite, Tailwind CSS
+- Backend: Node.js, Express
+- Data: JSON files (mockReviews.json, approvedReviews.json)
+
+Key Design & Logic Decisions:
+- Manager dashboard for review management (private)
+- Public property page for guests (approved reviews only)
+- Review approval system (writes to approvedReviews.json)
+- Filtering, searching, sorting, and statistics on reviews
+- RESTful API endpoints for all review operations
+- Data normalization for consistent review format
+
+API Behaviors:
+- `/hostaway`: Get all reviews
+- `/search`: Filter reviews by property, rating, type, status
+- `/stats`: Get review statistics
+- `/approved`: Get approved reviews
+- `/:id/approve`: Approve/unapprove reviews
+- All endpoints return JSON with status, count, and reviews
+
+Google Reviews Findings:
+- Integration guide for Google Places API provided
+- Backend service example using `@googlemaps/google-maps-services-js`
+- API route for `/google/:placeId` documented
+- Frontend fetch and display logic included
+- Limitations: Only 5 most recent reviews, API costs, rate limits, public reviews only
+- Alternative: Google My Business API (requires OAuth, business verification)
+- Not recommended: Web scraping (TOS violation)
+- Recommended: Hybrid display (Hostaway + Google reviews, separate tabs)
+
+For full implementation details, see `IMPLEMENTATION_COMPLETE.md`.

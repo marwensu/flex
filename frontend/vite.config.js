@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'https://flex-ba-mu.vercel.app',
+        target: 'https://flex-amber-eight.vercel.app',
         changeOrigin: true,
       }
     }
