@@ -113,7 +113,7 @@ export const reviewsAPI = {
 // Health check
 export const healthCheck = async () => {
   try {
-    const response = await api.get('/health', { baseURL: 'https://flex-ba-mu.vercel.app:5000' });
+    const response = await api.get('/health', { baseURL: 'https://flex-ba-mu.vercel.app' });
     return response.data;
   } catch (error) {
     throw error;
