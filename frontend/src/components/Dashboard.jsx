@@ -27,7 +27,7 @@ export default function Dashboard() {
     fetchData();
   }, []);
 
-  // Apply filters whenever they change
+  // Apply filters whenever they changess
   useEffect(() => {
     applyFilters();
   }, [reviews, filters, sortBy, sortOrder]);
