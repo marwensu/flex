@@ -46,7 +46,7 @@ export default function Dashboard() {
       setStats(statsData.stats);
     } catch (err) {
       console.error('Error fetching data:', err);
-      setError(err.message || 'Failed to fetch data. Make sure the backend is running on https://flex-ba-mu.vercel.app/:5000');
+      setError(err.message || 'Failed to fetch data. Make sure the backend is running on https://flex-ba-mu.vercel.app');
     } finally {
       setLoading(false);
     }
