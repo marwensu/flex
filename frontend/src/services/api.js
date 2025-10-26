@@ -1,7 +1,9 @@
 import axios from 'axios';
 
-// Always use the backend deployment URL for production
-const API_BASE_URL = 'https://flex-amber-eight.vercel.app/api';
+// Use local server for development, production URL for deployment
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://flex-t9n8.vercel.app/api'
+  : 'http://localhost:5000/api';
 
 // Create axios instance with default config
 const api = axios.create({
@@ -113,7 +115,7 @@ export const reviewsAPI = {
 // Health check
 export const healthCheck = async () => {
   try {
-    const response = await api.get('/health', { baseURL: 'https://flex-amber-eight.vercel.app' });
+    const response = await api.get('/health', { baseURL: 'https://flex-t9n8.vercel.app' });
     return response.data;
   } catch (error) {
     throw error;

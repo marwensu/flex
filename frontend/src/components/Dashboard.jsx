@@ -46,7 +46,7 @@ export default function Dashboard() {
       setStats(statsData.stats);
     } catch (err) {
       console.error('Error fetching data:', err);
-      setError(err.message || 'Failed to fetch data. Make sure the backendddd is running on https://flex-amber-eight.vercel.app');
+      setError(err.message || 'Failed to fetch data. Make sure the backendddd is running on https://flex-t9n8.vercel.app');
     } finally {
       setLoading(false);
     }
