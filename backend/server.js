@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || process.env.VERCEL_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || process.env.VERCEL_URL || 'https://flex-hpna.vercel.app/:3000',
   credentials: true
 }));
 app.use(bodyParser.json());
